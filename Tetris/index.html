@@ -3,6 +3,7 @@
     <head>
         <title>TETRIS Mania</title>
         <link rel="stylesheet" href="./css/style.css" type="text/css">
+        <meta charset="utf-8">
     </head>
 
     <body class="container-background">
@@ -11,11 +12,33 @@
         <div class="container-canvas">
             <canvas class="canvas"></canvas>
             <div class="canvas-overlay"></div>
+            <div class="gameover-message font-family">Perdu</div>
+            <div class="dragon-ball"><img src="./img/dragon_ball.svg" alt="dragon_ball"></div>
         </div>
 
         <div class="button-start font-family">Commencer</div>
 
-        <div class="score-user font-family">Score : <div class="score font-family">0</div></div>
+        <div class="score-user font-family">Score : <div class="score sans-serif">0</div></div>
+        <div class="hours-computer sans-serif"></div>
+        <div class="touch-keyboard">
+            <div class="background-list"></div>
+            <div class="content-list">
+                <p class="title-info font-family">Touche de Navigation</p>
+                <div class="container-list font-family">
+                    <p class="key-touch">&uarr; &nbsp; Rotation</p>
+                    <p class="key-touch">&larr; &nbsp; Déplacer vers la Gauche</p>
+                    <p class="key-touch">&rarr; &nbsp; Déplacer vers la Droite</p>
+                    <p class="key-touch">&darr; &nbsp; Accélération vers le Bas</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="score-of-user font-family"><div class="title-of-score">Tableau des scores</div>
+            <div class="content-score-saved sans-serif">1.  &nbsp;<div class="score-saved sans-serif"></div></div>
+            <div class="content-score-saved sans-serif">2.  &nbsp;<div class="score-saved sans-serif"></div></div>
+            <div class="content-score-saved sans-serif">3.  &nbsp;<div class="score-saved sans-serif"></div></div>
+            <div class="content-score-saved sans-serif">4.  &nbsp;<div class="score-saved sans-serif"></div></div>
+        </div>
         
         <script src="./js/piece.js"></script>
         <script src="./js/script.js"></script>
