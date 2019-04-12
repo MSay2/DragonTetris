@@ -7,7 +7,7 @@ Référentiel du tetris
 <img src="Tetris/img/screenshot.png" width="300">
 
 ```
-Copyright (c) 2019 Yoann Meclot
+Copyright (c) 2019 MSay2 - DragonTETRIS
 
 Licensed under the Apache License, Version 2.0 (the "License"); 
 you may not use this file except in compliance with the License. 
